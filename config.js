@@ -1,11 +1,6 @@
-/* CONFIGURACIÓN — TARJETA DIGITAL YALITH SALÓN
-   Cambia solo lo que está entre comillas "..."
-   No borres comas, comillas ni llaves.
-   Si dejas algo vacío "", se muestra PENDIENTE DE CONFIGURAR. */
-
 const CONFIG = {
 
-  // Cuando termines de llenar todo, cambia true por false.
+  // Cuando termines de subir todas las fotos, cambia true por false.
   mostrarAvisos: true,
 
   negocio: {
@@ -17,31 +12,25 @@ const CONFIG = {
   },
 
   contacto: {
-    // WhatsApp: código de país + número, solo dígitos. PENDIENTE DE CONFIGURAR
-    whatsapp: "",
-    // Teléfono para el botón Llamar. PENDIENTE DE CONFIGURAR
-    telefono: "",
-    // Instagram: solo el usuario, sin @. PENDIENTE DE CONFIGURAR
-    instagram: "",
-    // Facebook: enlace completo. PENDIENTE DE CONFIGURAR
-    facebook: "",
-    // Dirección como la escribirías en Google Maps. PENDIENTE DE CONFIGURAR
-    direccion: "",
-    // Opcional: enlace de Google Maps.
+    whatsapp: "529986234394",
+    telefono: "529986234394",
+    instagram: "Yalith.salon",
+    facebook: "https://www.facebook.com/share/1CJAAr3jYx/",
+    direccion: "Región 97, Mz. 34, Lt. 1, Av. Industrial y calle 117, Cancún, Quintana Roo",
     mapsUrl: ""
   },
 
   mensajeWhatsApp: "Hola, vi su tarjeta digital y me gustaría conocer sus servicios y agendar una cita. 😊",
 
-  // precio: déjalo "" para ocultarlo. Ejemplo: "$350"
   servicios: [
-    { nombre: "Extensiones de pestañas", descripcion: "Mirada más definida y con volumen, a tu medida.", precio: "", foto: "" },
-    { nombre: "Diseño de cejas", descripcion: "Forma, color y cuidado para enmarcar tu rostro.", precio: "", foto: "" },
+    { nombre: "Extensiones de pestañas", descripcion: "Clásicas, mega clásicas, rímel, híbridas, mojado, wispy, volumen hawaiano, griego, americano, inglés y anime.", precio: "Desde $550", foto: "" },
+    { nombre: "Retoque de pestañas", descripcion: "Retoques de $450 a $700 según el estilo. Se hacen entre 15 y 20 días después, con mínimo 50% de extensiones; pasado ese tiempo es nueva aplicación.", precio: "Desde $450", foto: "" },
+    { nombre: "Cejas", descripcion: "Planchado y laminado $300, cejas HD $350, cejas 4K $370.", precio: "Desde $300", foto: "" },
     { nombre: "Uñas", descripcion: "Manos impecables con diseños y acabados duraderos.", precio: "", foto: "" },
-    { nombre: "Faciales", descripcion: "Limpieza y cuidado de la piel para un rostro luminoso.", precio: "", foto: "" }
+    { nombre: "Retiro de pestañas", descripcion: "Retiro seguro y cuidadoso de tus extensiones.", precio: "$200", foto: "" },
+    { nombre: "Depilado", descripcion: "", precio: "$200", foto: "" }
   ],
 
-  // Fotos de trabajos reales. Ejemplo: "imagenes/trabajo-1.jpg",
   galeria: [
   ]
 };
